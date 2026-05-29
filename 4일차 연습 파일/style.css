@@ -1,0 +1,25 @@
+header {
+    height: 86px;
+    background-color: #f7f5f5;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    background-color: blanchedalmond;
+
+}
+h1 {
+    background-color: #b3ab9f;
+}
+.use-box {
+    background-color: #dbc4a1;
+}
+
+main {
+    height: 400vh;
+    background-color: #e4e4e4;
+}
+footer {
+    height: 68px;
+    background-color: #ecebeb;
+}
