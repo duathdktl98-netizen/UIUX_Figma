@@ -21,6 +21,17 @@ main {
 .sct01-right {
     background-color: green;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sct01-rbox01 {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.sct01-rbox02 {
+    background-color: burlywood;
+    flex-grow: 1;
 }
 
 footer {
