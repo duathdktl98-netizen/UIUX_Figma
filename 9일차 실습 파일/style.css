@@ -1,0 +1,14 @@
+.section01 {
+    background-color: #c5c7c9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sct-01-top-box {
+    width: 950px; height: 200px;
+    background: #FFC9C9;
+}
+.h2 {
+    border: 1px solid #000;
+}
