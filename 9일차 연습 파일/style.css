@@ -1,0 +1,26 @@
+.section01 {
+    background-color: #c5c7c9;
+    height: 950px;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    background-color: aqua;
+    width: 950px;
+    margin-left: auto; margin-right: auto;
+}
+.sct-01-top-box {
+    width: 100%; height: 200px;
+    background: #FFC9C9;
+}
+.sct-01-bottom-box {
+    width: 100%; height: 260px;;
+    background-color: #E6FFEA;
+    /* flex-grow: 1; */
+
+}
+span {
+    border: 1px solid #000;
+    display: inline-flex; padding: 20px;
+}
