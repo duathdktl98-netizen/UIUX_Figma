@@ -1,0 +1,63 @@
+.mainbox {
+    width: 1920px; height: 700px;
+    border: 1px solid red;
+    display: flex;
+}
+.mainbox-left {
+    width: 100%; height: 100%;
+    background-color: aqua;
+}
+.mainbox-right {
+    width: 100%; height: 700px;
+    background-color: #caece1;
+}
+.main-sl-title {
+    width: 1920px; height: 83px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px 10px 60px;
+}
+.title-left {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px
+}
+.title-right {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px
+}
+.swiper-container-main02 {
+    width: 1920px; height: 470px;
+    border: 1px solid black;
+    display: flex;
+    padding: 0 60px;
+    gap: 5px;
+}
+.list-box01, .list-box02, .list-box03, .list-box04, .list-box05, .list-box06 {
+    height: 470px; width: 296px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.img-box01, .img-box02, .img-box03, .img-box04, .img-box05, .img-box06 {
+    width: 100%; height: 402px;
+    border: 1px solid orange;
+}
+.text-box01, .text-box02, .text-box03, .text-box04, .text-box05, .text-box06 {
+    width: 100%; height: 54px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.text-line01, .text-line02, .text-line03, .text-line04, .text-line05, .text-line06 {
+    width: 100%; height: 24 px;
+    border: 1px solid purple;
+}
