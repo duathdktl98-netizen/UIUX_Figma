@@ -1,0 +1,11 @@
+.img-box03 {
+    background-color: red;
+}
+
+/* 4단계 : 종횡비 활성화 + 이미지 커스텀 사이즈 유지 + 아마자 중심 활성화
+3단계 문제를 4단계 방법으로 해결 */
+.img-box03 > img {
+    width: 500px; height: 500px;
+    /* 500*500 유지하면서 이미지를 중심 기준으로 잘라줌 */
+    object-fit: cover; 
+}

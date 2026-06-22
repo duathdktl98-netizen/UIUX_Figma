@@ -1,0 +1,12 @@
+
+.img-box04 {
+    background-color: red;
+    /* overflow: hidden; 적용한 태그의 크기를 넘어서면 아래 태그들은 전부 자른다 */
+    overflow: hidden;
+    width: 500px; height: 500px;
+    position: relative;
+}
+.img-box04 > img {
+    position: absolute;
+    right: 0;
+}
