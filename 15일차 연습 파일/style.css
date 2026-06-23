@@ -22,4 +22,6 @@ header {
 .user-box {
     border: 1px solid green;
     width: 388px;
+    display: flex;
+    justify-content: end;
 }
