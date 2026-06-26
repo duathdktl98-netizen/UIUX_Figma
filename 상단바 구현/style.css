@@ -21,6 +21,7 @@ header {border: 1px solid black;}
     display: flex; gap: 16px; 
     align-items: center; 
     border: 1px solid blue;
+    height: 100%;
 }
 .m01-item {
     color: #000;
