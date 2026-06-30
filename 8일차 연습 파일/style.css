@@ -39,7 +39,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     /* height: 600px;
-    align-content: space-between; */
+    align-content: space-between;  */
     row-gap: 20px;
 }
 .sct03-li {
