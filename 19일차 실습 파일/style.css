@@ -1,0 +1,53 @@
+.popup::after {
+    content: "X";
+    font-size: 20px;
+    border: 1px solid red;
+}
+.popup { 
+    background: #E8E8E8;
+    padding-bottom: 12px; padding-top: 12px;
+    text-align: center;
+    color: #000;
+    font-size: 10.3px;  
+    line-height: 15px; /* 145.631% */
+}
+.popup::before {
+    content: "";
+    border: 1px solid red;
+}
+.top-bar {
+    background: #FFF;
+    padding: 16px 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+.menu01 {
+    width: 388px;
+}
+.menu01-ul { 
+    display: flex; gap: 16px;
+    align-items: center;
+    height: 100%;
+}
+.m01-item{
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+} 
+.logo-img {
+    display: flex; align-items: center;
+}
+.user-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 388px;
+}
+.user-box-ul {
+    display: flex; gap: 16px;
+    align-items: center;
+}
+.user-itm {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
