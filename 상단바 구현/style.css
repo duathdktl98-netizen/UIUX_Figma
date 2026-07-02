@@ -1,26 +1,31 @@
-header {border: 1px solid black;}
 .popup {
     background: #E8E8E8;
     padding-bottom: 12px; padding-top: 12px;
     text-align: center; 
+    color: #000; 
+    font-size: 10.3px;
+    line-height: 15px; /* 145.631% */
 }
 .top-bar {
-    border: 1px solid red;
     background: #FFF;
     padding: 16px 20px;
     /* menu01, logo, user-box 정렬 */
     display: flex;
     justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+}
+.top-bar:hover {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu01 {
-    border: 1px solid orange;
     width: 388px;
 }
 .menu01-ul {
     /* menu01-ul item 정렬  */
     display: flex; gap: 16px; 
     align-items: center; 
-    border: 1px solid blue;
     height: 100%;
 }
 .m01-item {
@@ -28,19 +33,76 @@ header {border: 1px solid black;}
     font-size: 11px;
     line-height: 15px; /* 136.364% */
 }
-.logo-box {
+.menu02 {
+    background-color: #e0e0e0;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    height: 400px; transition: 0.5s;
+    overflow: hidden;
+    position: absolute;
+    left: 0; right: 0; top: 100%;
+    /* container 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+}
+.menu01:hover > .menu02 {
+    height: 400px;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+}
+.menu02 > .container {
+    border: 1px solid #000;
+    width: 1620px;
+    /* 이미지박스, 2차메뉴 정렬 */
+    display: flex;
+}
+.mn02-img-box {
+    width: 400px;
+    /* 이미지 아이템 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mn02-img-item {
+    background-color: orange;
+    width: 300px; height: 300px;
+}
+.mn02-img-item > a {
+    height: 100%;
+}
+.mn02-img-item img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.mn02-nav {
+    border: 1px solid red;
+    flex-grow: 1;
+    /* ul 정렬 */
+    display: flex; justify-content: center;
+    align-items: center;
+}
+.mn02-nav > ul {
     border: 1px solid orange;
+    /* mn02-item 정렬 */
+    display: flex; gap: 80px;
+}
+.mn02-item > a {
+    font-size: 54px;
+    font-weight: 700;
+    color: #333;
+}
+.mn02-item:hover > a {
+    color: blue;
+    text-decoration: underline;
+}
+.logo-box {
     display: flex; align-items: center; 
 }
 .user-box {
-    border: 1px solid orange;
     width: 388px;
     /* 글자 오른쪽 끝으로 정렬 */
     display: flex;
     justify-content: flex-end;
 }
 .user-box-ul {
-    border: 1px solid blue;
     display: flex; gap: 16px;
     align-items: center;
 }   
